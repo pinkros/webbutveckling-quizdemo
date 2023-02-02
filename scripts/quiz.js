@@ -30,8 +30,20 @@ for (const question of questions) {
   cardBody.classList.add("card-body", "bg-dark");
   cardText.classList.add("card-text,", "text-warning");
   cardFooter.classList.add("card-footer", "bg-info");
-  trueBtn.classList.add("btn", "btn-success", "border-3", "border-dark");
-  falseBtn.classList.add("btn", "btn-danger", "border-3", "border-dark");
+  trueBtn.classList.add(
+    "btn",
+    "btn-success",
+    "border-3",
+    "border-dark",
+    "mx-1"
+  );
+  falseBtn.classList.add(
+    "btn",
+    "btn-danger",
+    "border-3",
+    "border-dark",
+    "mx-1"
+  );
   //innehåll i element
   cardHeader.innerText = questions.indexOf(question) + 1;
   cardText.innerText = question.statement;
