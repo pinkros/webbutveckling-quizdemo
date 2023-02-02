@@ -31,6 +31,8 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+
+    <script defer src="scripts/quiz.js"></script>
   </head>
 
   <body class="bg-secondary">
@@ -60,22 +62,7 @@
             </button>
           </div>
           <div class="col-6">
-            <ul id="questions" class="list-group">
-              <div class="card border-0 mb-2">
-                <div class="card-header bg-info fw-bold">1</div>
-                <div class="card-body bg-dark">
-                  <h4 class="card-text text-warning">Fråga</h4>
-                </div>
-                <div class="card-footer bg-info">
-                  <button class="btn btn-success border-3 border-dark">
-                    True
-                  </button>
-                  <button class="btn btn-danger border-3 border-dark">
-                    False
-                  </button>
-                </div>
-              </div>
-            </ul>
+            <ul id="questions" class="list-group"></ul>
           </div>
           <div class="col-3">
             <h2 class="text-dark">Score</h2>
